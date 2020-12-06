@@ -33,7 +33,7 @@ class App extends Component {
     }
   };
 
-  onSubmit = (query, page) => {
+  onSubmit = (query) => {
     this.setState({ query: query, page: 1, pictures: [] });
   };
 
